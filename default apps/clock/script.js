@@ -31,3 +31,14 @@ setInterval(updateTime, 1000); // Call function every second
 function getSecondsAngle(currentTime) {
   return (currentTime.seconds * 360) / 60;
 }
+function updateHandPositions(handAngles) {
+  const hourHandEl = document.querySelector('.hour-hand');
+  hourHandEl.style.transform = `rotate(${handAngles.hourAngle}deg)`;
+
+  const minuteHandEl = document.querySelector('.minute-hand');
+  minuteHandEl.style.transform = `rotate(${handAngles.minutesAngle}deg)`;
+
+  const secondsHandEl = document.querySelector('.seconds-hand');
+  secondsHandEl.style.transform = `rotate(${getSecondsAngle(currentTime)}deg)`;
+}
+setInterval(() => updateTime(getCurrentTime()), 1000);
