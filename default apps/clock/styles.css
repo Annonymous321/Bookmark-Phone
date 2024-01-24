@@ -1,0 +1,8 @@
+.clock-container {
+  width: 300px; /* Adjust size as needed */
+  height: 300px; /* Adjust size as needed */
+  margin: 50px auto; /* Center the clock horizontally */
+  border-radius: 50%; /* Create a circular shape */
+  background-color: #f0f0f0; /* Light gray background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
