@@ -31,5 +31,9 @@
   &:hover {
     opacity: 0.8; /* Slightly dim the icon on hover */
     transform: scale(1.1); /* Apply a subtle zoom effect */
+    transition: transform 0.2s ease-in-out; /* Define transition for click animation */
   }
+  
+  .app-icon:active {
+  transform: scale(1.2); /* Scale app icon up slightly on click */
 }
