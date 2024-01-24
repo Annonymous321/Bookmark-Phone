@@ -1,0 +1,14 @@
+#edit-mode-overlay {
+  position: absolute; /* Position it over the main content */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: none; /* Initially hidden */
+  /* Add more styles for buttons, menus, and drag-and-drop areas */
+}
+
+.hidden {
+  display: none;
+}
