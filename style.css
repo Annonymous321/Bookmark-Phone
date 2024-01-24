@@ -17,13 +17,19 @@
   margin: 20px;
 }
 
+/* Universal app icon styling */
+
 .app-icon {
-  width: 90px;
-  height: 90px;
-  text-align: center;
-  line-height: 90px;
-  border-radius: 10px;
-  background-color: #fff;
-  margin: 10px;
-  cursor: pointer;
+  width: 80px;  /* Set a consistent width for all icons */
+  height: 80px; /* Set a consistent height for all icons */
+  background-size: cover; /* Ensure icons fill the entire container */
+  border-radius: 10px; /* Apply rounded corners */
+  margin: 10px; /* Add spacing between icons */
+  cursor: pointer; /* Indicate clickability */
+
+  /* Hover effect for visual feedback */
+  &:hover {
+    opacity: 0.8; /* Slightly dim the icon on hover */
+    transform: scale(1.1); /* Apply a subtle zoom effect */
+  }
 }
