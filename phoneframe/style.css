@@ -1,0 +1,9 @@
+#phone-frame {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px; /* adjust width as needed */
+  height: 500px; /* adjust height as needed */
+  background-image: url("Images/blank-iphone-x-26.png"); /* replace with your image URL */
+  background-size: cover; /* adjust background size if needed */
+}
