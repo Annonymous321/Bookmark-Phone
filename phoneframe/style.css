@@ -7,3 +7,32 @@
   background-image: url("Images/blank-iphone-x-26.png"); /* replace with your image URL */
   background-size: cover; /* adjust background size if needed */
 }
+#home-button {
+  position: absolute;
+  bottom: 5px; /* adjust bottom position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px; /* adjust width and height as needed */
+  height: 40px;
+  border-radius: 50%; /* adjust border-radius for different button shapes */
+  background-color: #666; /* adjust button color as needed */
+  cursor: pointer;
+}
+#toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px; /* adjust height as needed */
+  background-color: #333;
+  color: #fff; /* adjust text color as needed */
+  display: flex; /* arrange toolbar elements horizontally */
+  justify-content: space-between; /* distribute elements evenly */
+}
+
+#app-container {
+  margin: 5px; /* adjust margin for spacing around app icons */
+  display: grid; /* arrange app icons in a grid */
+  grid-template-columns: repeat(4, 1fr); /* for a 4x5 grid, adjust columns and rows as needed */
+  grid-gap: 5px; /* adjust spacing between app icons */
+}
