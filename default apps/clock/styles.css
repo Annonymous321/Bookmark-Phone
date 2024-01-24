@@ -6,3 +6,16 @@
   background-color: #f0f0f0; /* Light gray background */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
 }
+.hour-hand, .minute-hand {
+  width: 5px; /* Adjust width as needed */
+  height: 50%; /* Adjust length as needed */
+  background-color: #333; /* Black for hands */
+  position: absolute; /* Position them freely within clock face */
+  top: 50%; /* Center vertically */
+  transform-origin: 50% 100%; /* Rotate from base of hand */
+  transition: transform 0.3s ease-in-out; /* Smooth hand movements */
+}
+
+.hour-hand { /* Make hour hand slightly thicker */
+  width: 8px;
+}
